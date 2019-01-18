@@ -1,0 +1,22 @@
+﻿<Window x:Class="ListApp.FoodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListApp"
+        mc:Ignorable="d"
+        Title="Add Food" Height="220" Width="300" ResizeMode="NoResize">
+    <Border>
+        <StackPanel Margin="10,10,10,10">
+            <Label Content="Name"/>
+            <TextBox x:Name="FoodNameTextBox"/>
+            <Label Content ="Category"/>
+            <ComboBox x:Name="CategoryComboBox" ItemsSource="{Binding Categories}"/>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                <RadioButton x:Name="IsGoodRadioButton" GroupName="GoodOrNot" Content="Good" IsChecked="True" />
+                <RadioButton x:Name="IsNotGoodRadioButton" GroupName="GoodOrNot" Content="Bad" Margin="10,0,0,0"/>
+            </StackPanel>
+            <Button x:Name="AddFoodButton" Content="Add" Click="AddFoodButton_Click"/>
+        </StackPanel>
+    </Border>
+</Window>

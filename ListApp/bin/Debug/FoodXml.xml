@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFood xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Food>
+    <Id>1</Id>
+    <Name>Jabłko</Name>
+    <Category>Owoce</Category>
+    <IsGood>true</IsGood>
+    <CreationDate>2018-09-14T10:33:15.9996769+02:00</CreationDate>
+  </Food>
+  <Food>
+    <Id>2</Id>
+    <Name>Banan</Name>
+    <Category>Owoce</Category>
+    <IsGood>false</IsGood>
+    <CreationDate>2018-09-13T16:54:21.3327276+02:00</CreationDate>
+  </Food>
+  <Food>
+    <Id>6</Id>
+    <Name>Morela</Name>
+    <Category>Owoce</Category>
+    <IsGood>false</IsGood>
+    <CreationDate>2018-09-13T17:27:02.639386+02:00</CreationDate>
+  </Food>
+</ArrayOfFood>

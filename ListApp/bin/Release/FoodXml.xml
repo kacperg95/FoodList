@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFood xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Food>
+    <Id>1</Id>
+    <Name>Apple</Name>
+    <Category>Fruits</Category>
+    <IsGood>true</IsGood>
+    <CreationDate>2019-01-18T14:15:36.5402905+01:00</CreationDate>
+  </Food>
+</ArrayOfFood>
